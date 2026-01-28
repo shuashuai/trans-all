@@ -4,7 +4,10 @@
 node_modules
 /.pnp
 .pnp.js
-/.next
+
+# next.js
+/.next/
+/out/
 
 # testing
 /coverage
@@ -32,9 +35,3 @@ yarn.lock
 package-lock.json
 .eslintcache
 /.vscode/
-
-/* !/src/plugins
-/src/plugins/*
-!/src/plugins/builtin
-!/src/plugins/Demo
-/src/plugins/*/*.go
