@@ -1,0 +1,31 @@
+# 示例配置文件
+app:
+  name: "我的应用"
+  description: "这是一个用于演示翻译功能的示例应用"
+  version: "1.0.0"
+  
+database:
+  host: "localhost"
+  port: 5432
+  name: "myapp_db"
+  
+ui:
+  title: "欢迎使用"
+  welcome_message: "欢迎来到我们的平台！"
+  buttons:
+    - "登录"
+    - "注册" 
+    - "忘记密码"
+  
+messages:
+  success: "操作成功完成"
+  error: "发生了一个错误，请稍后重试"
+  warning: "请检查您的输入"
+  
+features:
+  - name: "用户管理"
+    description: "管理系统用户和权限"
+  - name: "数据分析" 
+    description: "提供详细的数据分析报告"
+  - name: "实时通知"
+    description: "即时推送重要消息和更新"
